@@ -1,0 +1,13 @@
+// Only apply styles to three different elements directly:
+
+// Universal selector (*).
+* { box-sizing: border-box; }
+
+// ul elements.
+ul { list-style-type: none; }
+
+// p elements.
+p {
+	line-height: 25px;
+	font-size: 14px;
+}
